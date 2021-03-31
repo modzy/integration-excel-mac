@@ -59,9 +59,3 @@ CharCleanUp = Replace(textToClean, "'", "'\''")
 CharCleanUp = Replace(textToClean, "`", "'\`'")
 
 End Function
-
-Sub testcleanup()
-
-Debug.Print CharCleanUp("I'm so happy")
-
-End Sub
