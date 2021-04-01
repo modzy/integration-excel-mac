@@ -1,8 +1,8 @@
 Attribute VB_Name = "Modzy_API"
 Option Explicit
 
-Const modzyURL As String = "https://demo.modzy.engineering"
-Const APIKey As String = "4mmTW3v869PbJrzvkffL.9NtiPEsGFCWwD3UrPWnl"
+Const modzyURL As String = "Modzy base URL goes here" ' e.g. "https://demo.modzy.engineering"
+Const APIKey As String = "your API key goes here" ' e.g. "u39fh3jf484hf89HFU9l.298vnLjwifjz08Lnwl82"
 
 Private Declare PtrSafe Function popen Lib "libc.dylib" (ByVal command As String, ByVal mode As String) As LongPtr
 Private Declare PtrSafe Function pclose Lib "libc.dylib" (ByVal file As LongPtr) As Long
@@ -12,7 +12,7 @@ Private Declare PtrSafe Function feof Lib "libc.dylib" (ByVal file As LongPtr) A
 Function execShell(command As String, Optional ByRef exitCode As Long) As String
     ' execShell() function courtesy of Robert Knight via StackOverflow
     ' https://stackoverflow.com/questions/6136798/vba-shell-function-in-office-2011-for-mac
-    
+
     Dim file As LongPtr
     file = popen(command, "r")
 
@@ -42,7 +42,7 @@ Function HTTPGet(sURI As String) As String
 
     sCmd = "curl -H ""Authorization: ApiKey " & APIKey & """ " & modzyURL & sURI
     sResult = execShell(sCmd, lExitCode)
-    
+
     ' ToDo check lExitCode
 
     HTTPGet = sResult
@@ -57,7 +57,7 @@ Function HTTPPost(sURI As String, sData As String) As String
 
     sCmd = "curl -X POST -H ""Authorization: ApiKey " & APIKey & """ -H ""Content-Type: application/json"" -d '" & sData & "' " & modzyURL & sURI
     sResult = execShell(sCmd, lExitCode)
-    
+
     ' ToDo check lExitCode
 
     HTTPPost = sResult
