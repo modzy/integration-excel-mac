@@ -1,7 +1,7 @@
 Attribute VB_Name = "Modzy_API"
 Option Explicit
 
-Const modzyURL As String = "Modzy base URL goes here" ' e.g. "https://demo.modzy.engineering"
+Const modzyURL As String = "Modzy base URL goes here" ' e.g. "https://app.modzy.com"
 Const APIKey As String = "your API key goes here" ' e.g. "u39fh3jf484hf89HFU9l.298vnLjwifjz08Lnwl82"
 
 Private Declare PtrSafe Function popen Lib "libc.dylib" (ByVal command As String, ByVal mode As String) As LongPtr
