@@ -85,3 +85,14 @@ res = HTTPPost(route, jobInput)
 ModzyJobSubmission = res
 
 End Function
+
+Function ModzyJobDetails(jobID As String) As String
+'This function GETs a job’s details. It includes the status, total, completed, and failed number of items
+Dim route As String
+Dim res As String
+
+route = "/api/jobs/" & jobID
+res = HTTPGet(route)
+ModzyJobDetails = res
+
+End Function
