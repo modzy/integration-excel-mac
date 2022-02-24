@@ -12,7 +12,7 @@ Resources for building Modzy integrations into Excel for Mac with VBA
 ![GitHub Release Date](https://img.shields.io/github/issues-raw/modzy/integration-excel-mac)
 
 </div>
-Not a Mac user? [Excel for Windows with VBA](https://github.com/modzy/excel-integration-windows)
+Not a Mac user? [Excel for Windows with VBA](<https://github.com/modzy/excel-integration-windows>)
 
 ## Overview
 
