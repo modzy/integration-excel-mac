@@ -41,3 +41,7 @@ This function accepts a valid Job ID and returns the results of any inference th
 
 `ModzyJobDetails`
 This function GETs a job’s details. It includes the status, total, completed, and failed number of items
+
+## Contributing
+
+We are happy to receive contributions from all of our users. Check out our [contributing file](https://github.com/modzy/integration-excel-mac/blob/master/CONTRIBUTING.adoc) to learn more.
