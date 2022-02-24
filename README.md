@@ -9,7 +9,7 @@ Resources for building Modzy integrations into Excel for Mac with VBA
 5. *Import Seniment Analysis Example*: In the "Project - VBA Project" window right click on "Sheet1" -> click on "Import File" -> select SenimentAnalysisExample.cls
 6. *Update environment variables*: At the top of the Modzy_API module, update the URL of your instance of Modzy, along with the API Key you'll be using to call Modzy
 7. *Add sample input*: Add any text you'd like to Cell "A1" on Sheet1 of your spreadsheet
-8. *Run a sample inference*: In the VBA IDE, double click on the "Sheet1" object -> click your mouse somewhere within the "Sub LanguageIdentification()" subroutine -> Click on the triangular run button at the top of the editor
+8. *Run a sample inference*: In the VBA IDE, double click on the "Sheet1" object -> click your mouse somewhere within the "Sub SentimentAnalysis()" subroutine -> Click on the triangular run button at the top of the editor
 
 ## Modzy_API Functions
 The Modzy_API module lets you interact with the Modzy API using CURL. A lot of the annoyance of setting up, executing, and returning a result has been abstracted away. The main functions you'll likely want to use are:
