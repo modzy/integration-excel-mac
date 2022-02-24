@@ -2,7 +2,7 @@
 Resources for building Modzy integrations into Excel for Mac with VBA
 
 ## How to use this integration with the example code provided
-1. *Download files*: Clone this repo, or download Modzy_API.bas and LanguageDetectionExample.cls
+1. *Download files*: Clone this repo, or download Modzy_API.bas and SentimentAnalysisExample.cls
 2. *Enable your Developer Tab*: Open up Excel -> go to Preferences -> go to Ribbon & Toolbar -> click on the "Developer" tab to enable it in the main ribbon
 3. *Open up the VBA IDE*: Click on the "Developer" tab -> Click on the "Visual Basic" icon
 4. *Import API Module*: In the "Project - VBA Project" window right click on the "Modules" folder -> click on "Import File" -> select Modzy_API.bas
