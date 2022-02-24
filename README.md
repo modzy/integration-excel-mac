@@ -1,7 +1,25 @@
-# integration-excel-mac
+# Modzy Integration with Excel for Mac
+
 Resources for building Modzy integrations into Excel for Mac with VBA
 
-## How to use this integration with the example code provided
+<div align="center">
+<img src="https://www.modzy.com/wp-content/uploads/2020/06/MODZY-RGB-POS.png" alt="modzy logo" width="250" align="center"/>
+  
+**This repository contains the VBA scripts required to build a Modzy integration with Excel on a Mac.**
+
+![GitHub contributors](https://img.shields.io/github/contributors/modzy/integration-excel-mac)
+![GitHub last commit](https://img.shields.io/github/last-commit/modzy/integration-excel-mac)
+![GitHub Release Date](https://img.shields.io/github/issues-raw/modzy/integration-excel-mac)
+
+</div>
+Not a Mac user? [Excel for Windows with VBA](https://github.com/modzy/excel-integration-windows)
+
+## Overview
+
+This repository contains resources for building a Modzy integration into Excel with VBA
+
+## Usage Instructions
+
 1. *Download files*: Clone this repo, or download Modzy_API.bas and SentimentAnalysisExample.cls
 2. *Enable your Developer Tab*: Open up Excel -> go to Preferences -> go to Ribbon & Toolbar -> click on the "Developer" tab to enable it in the main ribbon
 3. *Open up the VBA IDE*: Click on the "Developer" tab -> Click on the "Visual Basic" icon
@@ -12,6 +30,7 @@ Resources for building Modzy integrations into Excel for Mac with VBA
 8. *Run a sample inference*: In the VBA IDE, double click on the "Sheet1" object -> click your mouse somewhere within the "Sub SentimentAnalysis()" subroutine -> Click on the triangular run button at the top of the editor
 
 ## Modzy_API Functions
+
 The Modzy_API module lets you interact with the Modzy API using CURL. A lot of the annoyance of setting up, executing, and returning a result has been abstracted away. The main functions you'll likely want to use are:
 
 `ModzyJobSubmission`
