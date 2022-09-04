@@ -1,15 +1,13 @@
-# Modzy Integration with Excel for Mac
-
-Resources for building Modzy integrations into Excel for Mac with VBA
+![Modzy Python SDK Banner](https://github.com/modzy/integration-excel-mac/blob/main/modzy-excel-mac-banner.png)
 
 <div align="center">
-<img src="https://www.modzy.com/wp-content/uploads/2020/06/MODZY-RGB-POS.png" alt="modzy logo" width="250" align="center"/>
-  
-**This repository contains the VBA scripts required to build a Modzy integration with Excel on a Mac.**
 
-![GitHub contributors](https://img.shields.io/github/contributors/modzy/integration-excel-mac)
-![GitHub last commit](https://img.shields.io/github/last-commit/modzy/integration-excel-mac)
-![GitHub Release Date](https://img.shields.io/github/issues-raw/modzy/integration-excel-mac)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+
+![GitHub contributors](https://img.shields.io/github/contributors/modzy/integration-excel-mac?logo=GitHub&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/modzy/integration-excel-mac?logo=GitHub&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/issues-raw/modzy/integration-excel-mac?logo=GitHub&style=flat-square)
 
 </div>
 Not a Mac user? https://github.com/modzy/excel-integration-windows
