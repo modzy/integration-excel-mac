@@ -1,16 +1,13 @@
-![Modzy Python SDK Banner](https://github.com/modzy/integration-excel-mac/blob/main/modzy-excel-mac-banner.png)
-
-<div align="center">
-
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
 
 ![GitHub contributors](https://img.shields.io/github/contributors/modzy/integration-excel-mac?logo=GitHub&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/modzy/integration-excel-mac?logo=GitHub&style=flat-square)
 ![GitHub Release Date](https://img.shields.io/github/issues-raw/modzy/integration-excel-mac?logo=GitHub&style=flat-square)
 ![GitHub](https://img.shields.io/github/license/modzy/integration-excel-mac?logo=apache&style=flat-square)
 
-</div>
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+![Modzy Python SDK Banner](https://github.com/modzy/integration-excel-mac/blob/main/modzy-excel-mac-banner.png)
+
 Not a Mac user? https://github.com/modzy/excel-integration-windows
 
 ## Usage
